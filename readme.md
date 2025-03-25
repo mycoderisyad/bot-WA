@@ -19,7 +19,7 @@ Bot ini dirancang untuk membantu penjualan dengan fitur-fitur otomatisasi sepert
 
 ### 1️⃣ **Clone Repository**
 ```sh
-git clone https://github.com/username/bot-WA.git
+git clone https://github.com/mycoderisyad/bot-WA.git
 cd bot-WA
 ```
 
