@@ -120,9 +120,7 @@ Jika terjadi error saat menjalankan bot:
 ---
 
 ## 📌 Lisensi
-MIT License. Bebas digunakan dan dikembangkan lebih lanjut. 😃
+MIT License. Bebas digunakan dan dikembangkan lebih lanjut. 
 
 ---
-
-Enjoy coding! 🚀🔥
 
