@@ -24,14 +24,14 @@ export async function generateAIResponse(userText: string): Promise<string> {
     try {
         const model = genAI.getGenerativeModel({ model: "gemini-2.0-flash" });
 
-        // Menambahkan konteks agar AI selalu menjawab sebagai penjual
         const prompt = `
         Kamu adalah asisten penjual di toko online. Tugasmu adalah membantu pelanggan memahami cara membeli produk. 
         Panduan yang harus kamu berikan:
         1. Jika pelanggan menanyakan stok, arahkan ke perintah "#stok".
         2. Jika pelanggan ingin mendaftar, arahkan ke perintah "#daftar".
         3. Jika pelanggan ingin membeli, beri contoh cara menggunakan perintah "#beli-kodeproduk-jumlah".
-        4. Jawablah dengan profesional dan ramah.
+        4. Jawablah dengan profesional dan ramah seperti manusia.
+        5. Jawab dengan text yang rapi, jelas, terstruktur, dan informatif.
 
         Pelanggan: "${userText}"
         `;
