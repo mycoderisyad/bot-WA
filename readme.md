@@ -117,10 +117,3 @@ Jika terjadi error saat menjalankan bot:
 - Jika error terkait session, hapus folder `auth/` dan scan ulang QR Code.
 - Cek log error untuk detail lebih lanjut.
 
----
-
-## 📌 Lisensi
-MIT License. Bebas digunakan dan dikembangkan lebih lanjut. 
-
----
-
